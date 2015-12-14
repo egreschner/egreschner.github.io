@@ -17,6 +17,9 @@ hr {
 	text-align:center;
 	color: #3D3933;
 }
+#slogan{
+	font-size: 20px;
+}
 
 div.container {
     position: fixed;
@@ -32,3 +35,14 @@ div.container {
     margin-left: -300px;
     height: 1%; 
     padding: 70px;
+}
+img{
+	max-width: 100%;
+    max-height: 100%;
+}
+#ohm {
+	float: center;
+	margin-left: 5px;
+	height: 80px;
+
+}
