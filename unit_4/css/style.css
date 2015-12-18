@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:700|Dosis|Old+Standard+TT);
+.lotion{
+	color:#FFFFE0;
+}
+body{
+	background-color:#8FBC8F;
+	text-align: center;
+}
+
+h1{
+	font-size: 8em;
+	font-family: 'Cinzel', 'Arial';
+	font-weight:bold;
+	margin-bottom: -0.25em;
+}
+.about {//slogan//
+	text-align:center;
+	color: #3D3933;
+	font-family: 'Dosis';
+}
+#slogan{
+	font-size: 1.5em;
+	
+}
+#ohm {
+	float: center;
+	height: 5em;
+}
+img{
+	max-width: 100%;
+    max-height: 100%;
+}
+div.container {
+    position: fixed;
+    float: left;
+    top: 100px;
+    width: 100%;
+    clear: both;
+}
+
+#right {
+    float: right;
+    width: 300px;
+    margin-left: -300px;
+    height: 1%; 
+    padding: 70px;
+}
+#aboutme {
+	font-family: "Old Standard TT", "Arial";
+}
