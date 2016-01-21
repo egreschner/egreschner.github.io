@@ -41,9 +41,16 @@ div.container {
     font-family: "Old Standard TT", "Arial";
     color:#FFFFE0
 }
-nav{
+
+ul {
+    list-style-type: none;
+    margin:0;
     background-color:#182430;
     padding: 1.5em;
+}
+
+li{
+    display: inline;
 }
 a{
     color: inherit;
@@ -51,10 +58,14 @@ a{
     text-decoration: none
  }
 
-a:hover{
-    background-color: #5B89B8;
-    padding: 1.75em;
+ul a:hover{
+    background-color: #26394C;
 }
+
+#input {
+    display: none;
+}
+
 
 #left{
     padding: 1em;
@@ -108,7 +119,30 @@ footer{
     }
 }
 @media only screen and (max-width: 530px){
-    nav {
-        float:none;
-    }
+    li{
+        float: none;
+  }
+  
+ label{
+    display:block;
+  }
+  #menu{
+    display: none;
+  }
+
+
+ div{ /*hamburger symbol*/
+  width:20px;
+  border:none;
+  height:3px;
+  background-color:#182430;
+  margin:0 0 1px;
+  padding:0;
+  display:block;
+}
+
+
+#input:checked + #menu{
+  display:block;
+} 
 }
