@@ -119,30 +119,32 @@ footer{
     }
 }
 @media only screen and (max-width: 530px){
-    li{
-        float: none;
-  }
-  
- label{
-    display:block;
-  }
-  #menu{
-    display: none;
+   li {
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #menu{
+        display: none;
   }
 
-
- div{ /*hamburger symbol*/
-  width:20px;
-  border:none;
-  height:3px;
-  background-color:#182430;
-  margin:0 0 1px;
-  padding:0;
-  display:block;
+    label div{ /*hamburger symbol*/
+      width:20px;
+      border:none;
+      height:3px;
+      background-color:#182430;
+      margin:0 0 1px;
+      padding:0;
+      display:block;
 }
 
+   ul a:hover {
+        background:none;
+}
 
-#input:checked + #menu{
-  display:block;
-} 
+    #input:checked + #menu{
+        display:block;
+}
+
 }
