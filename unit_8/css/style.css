@@ -121,21 +121,22 @@ footer{
 @media only screen and (max-width: 530px){
    li {
         float: left;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 1px
     }
 
     #menu{
         display: none;
   }
 
-    label div{ /*hamburger symbol*/
+     label div{ /*hamburger symbol*/
       width:20px;
       border:none;
       height:3px;
       background-color:#182430;
       margin:0 0 1px;
-      padding:0;
+      padding:1px;
       display:block;
 }
 
