@@ -124,8 +124,12 @@ footer{
    }
 
    li {
-        border-bottom: 1px solid #5B89B8;
+        border-bottom: 1px solid #272833 ;
         display: block;
+   }
+
+   li:last-of-type {
+        border-bottom: none;
    }
 
    a {
