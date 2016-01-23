@@ -121,8 +121,7 @@ footer{
 @media only screen and (max-width: 530px){
    li {
         margin-top: 10px;
-        margin-bottom: 10px;
-        padding-top: 1px;
+        margin-bottom: 20px;
         display: block;
 
     }
@@ -131,7 +130,7 @@ footer{
         display: none;
   }
 
-     label div{ /*hamburger symbol*/
+    label div{ /*hamburger symbol*/
       width:20px;
       border:none;
       height:3px;
