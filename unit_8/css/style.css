@@ -124,9 +124,9 @@ footer{
    }
 
    li {
-        border-bottom: 1px;
-        background:#5B89B8;
+        border-bottom: 1px solid #5B89B8;
    }
+   
    a {
          padding: 15px 0;
         display: block;
