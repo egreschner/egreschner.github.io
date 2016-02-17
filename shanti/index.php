@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html> 
 	<head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
-		<?php include('header.php';) ?>
+		<?php include "header.php"; ?>
 		<section class="clearfix">
 			<article id="left" class="about"><!--Blog Post Sections-->
 					<p id="one">
@@ -37,10 +37,7 @@
 			</p>
 			</aside>
 		</section>
-		<footer><!--Reiterate how to contact, navigation-->
-			<p class="lotion"><!--Questions & Comments Section-->
-			Questions or ideas? Email me at: <a href="mailto:liz@lizgres.com" q> liz@lizgres.com</a>
-			</p>	
-		</footer>
 		</div>
+		<?php include "footer.php"; ?>
+		
 	</body>
